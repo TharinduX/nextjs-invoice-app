@@ -29,7 +29,8 @@ import {
   User2Icon,
   UserX2Icon,
   X,
-  BookText
+  BookText,
+  LogOut
 } from "lucide-react";
 
 export type Icon = LucideIcon;
@@ -81,4 +82,5 @@ export const Icons = {
   twitter: Twitter,
   check: Check,
   invoice: BookText,
+  logout: LogOut
 };
